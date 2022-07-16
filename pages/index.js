@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 // Components
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Home = () => {
