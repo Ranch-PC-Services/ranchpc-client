@@ -2,19 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
+* {
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+  outline: none;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+/* footer */
+.footer-container {
+  padding: 0.5rem 0;
+}
+
+.footer-container__sub {
+  padding: 2rem 1rem;
 }
