@@ -1,0 +1,8 @@
+{
+  "color": "#b81e1e",
+  "idleAnimation": true,
+  "idleAnimationCount": 10,
+  "inverted": true,
+  "size": 15,
+  "trailCount": 20
+}
