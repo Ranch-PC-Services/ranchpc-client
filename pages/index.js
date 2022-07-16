@@ -12,7 +12,8 @@ const Home = () => {
         <meta name="description" content="Build Your Personal Computer that Satisfies You with Us" />
       </Head>
 
-      {/* Header */}
+      {/* Navbar */}
+      <Navbar />
 
       {/* Main */}
 
