@@ -8,6 +8,25 @@
   scroll-behavior: smooth;
   outline: none;
   text-decoration: none;
+  /* overflow-x: hidden; */
+}
+
+html {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
+  background-color: #FCFCFC;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #DCCA87;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6f56b4;
 }
 
 .disabled {
@@ -35,6 +54,17 @@
   cursor: pointer;
   font-size: 2rem;
   text-align: center;
+}
+
+/* header */
+.header-container__title {
+  overflow-y: hidden;
+}
+
+.wave-up {
+  position: relative;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
 }
 
 /* footer */
