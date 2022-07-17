@@ -1,5 +1,5 @@
 // Components
-// import ParticlesComponent from '../common/ParticlesComponent';
+import ParticlesComponent from '../common/ParticlesComponent';
 
 // Images
 import Image from 'next/image';

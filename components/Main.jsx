@@ -1,7 +1,13 @@
+import Services from './subComponents/main/Services';
+
 const Main = () => {
   return (
-    <div className="bg-[#110F14] h-[25vh] text-white font-bold">
-      Main
+    <div className="bg-[#110F14] text-white font-bold">
+
+      <Services />
+
+      <br /><br /><br /><br /><br /><br />
+
     </div>
   )
 }

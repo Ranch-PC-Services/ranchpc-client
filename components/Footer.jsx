@@ -1,7 +1,7 @@
 // Icons
-import { FaFacebookSquare } from "react-icons/fa";
-import { HiMail } from "react-icons/hi";
-import { BsPhoneFill } from "react-icons/bs";
+import { FaFacebookSquare } from 'react-icons/fa';
+import { HiMail } from 'react-icons/hi';
+import { BsPhoneFill } from 'react-icons/bs';
 
 const Footer = () => {
   return (
