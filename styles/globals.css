@@ -131,6 +131,10 @@ html {
   }
 }
 
+.spline-watermark {
+  display: none;
+}
+
 /* footer */
 .footer-container {
   padding: 0.5rem 0;

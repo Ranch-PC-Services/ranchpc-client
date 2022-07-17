@@ -23,7 +23,7 @@ const Header = () => {
               height={"200px"}
             />
           </div>
-          <div className="header-container__title text-[3.75rem] text-center tracking-wide leading-snug mb-20 custom:text-3xl sm:text-3xl md:text-4xl lg:text-[3.5rem] lg:leading-snug xl:text-[3.75rem]">
+          <div className="header-container__title text-[4rem] text-center tracking-wide leading-snug mb-40 custom:text-3xl sm:text-3xl md:text-4xl lg:text-[3.5rem] lg:leading-snug xl:text-[3.75rem]">
             Build Your Personal Computer <br />
             that Satisfies You with Us
           </div>

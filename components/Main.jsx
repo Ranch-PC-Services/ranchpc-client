@@ -1,12 +1,19 @@
+// Components
+import About from './subComponents/main/About';
 import Services from './subComponents/main/Services';
 
 const Main = () => {
   return (
-    <div className="bg-[#110F14] text-white font-bold">
+    <div className="text-white font-bold">
 
-      <Services />
+      <div className="bg-[#110F14]">
+        <Services />
+        <br /><br /><br /><br /><br /><br />
+      </div>
 
-      <br /><br /><br /><br /><br /><br />
+      <iframe src='https://my.spline.design/ranchpc-77e02d48f65b852d0188bbfc202f0173/' frameborder='0' width='100%' height='250px'></iframe>
+
+      <About />
 
     </div>
   )
