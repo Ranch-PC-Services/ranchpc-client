@@ -8,8 +8,7 @@ import computer from '../../assets/images/computer.png';
 // Icons
 import { FaFacebookSquare } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
-import { BsPhoneFill } from 'react-icons/bs';
-import { BsArrowDown } from 'react-icons/bs';
+import { BsPhoneFill, BsArrowDown } from 'react-icons/bs';
 
 const Header = () => {
   return (

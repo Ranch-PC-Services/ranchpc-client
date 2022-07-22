@@ -1,7 +1,8 @@
 // Components
-import About from './subComponents/main/About';
 import Services from './subComponents/main/Services';
+import About from './subComponents/main/About';
 import Maps from './subComponents/main/Maps';
+import Builds from './subComponents/main/Builds';
 
 const Main = () => {
   return (
@@ -17,6 +18,8 @@ const Main = () => {
       <About />
 
       <Maps />
+
+      <Builds />
 
     </div>
   )

@@ -16,7 +16,7 @@ const Maps = () => {
     <div className="maps-container">
       <div className="bg-[#110F14] text-center">
         <br /><br />
-        <span className="text-3xl font-bold">Where is Ranch PC Services Located?</span>
+        <span className="text-4xl font-bold">Where is Ranch PC Services Located?</span>
         <br /><br /><br />
       </div>
 
@@ -28,6 +28,10 @@ const Maps = () => {
       >
         <Marker longitude={120.98} latitude={14.60} color="red" />
       </ReactMapGL>
+
+      <div className="bg-[#110F14] text-center">
+        <br /><br /><br /><br />
+      </div>
     </div>
   )
 }
