@@ -1,6 +1,7 @@
 // Components
 import About from './subComponents/main/About';
 import Services from './subComponents/main/Services';
+import Maps from './subComponents/main/Maps';
 
 const Main = () => {
   return (
@@ -14,6 +15,8 @@ const Main = () => {
       <iframe src='https://my.spline.design/ranchpc-77e02d48f65b852d0188bbfc202f0173/' frameborder='0' width='100%' height='250px'></iframe>
 
       <About />
+
+      <Maps />
 
     </div>
   )
