@@ -8,9 +8,9 @@ import logo from '../assets/images/logobg.png';
 
 // Icons
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { IoIosClose } from "react-icons/io";
-import { BsGlobe } from "react-icons/bs";
-import { HiOutlineTruck } from "react-icons/hi";
+import { IoIosClose } from 'react-icons/io';
+import { BsGlobe } from 'react-icons/bs';
+import { HiOutlineTruck } from 'react-icons/hi';
 
 // Components
 import Header from './subComponents/Header';

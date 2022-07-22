@@ -1,7 +1,26 @@
+// Components
+import Services from './subComponents/main/Services';
+import About from './subComponents/main/About';
+import Maps from './subComponents/main/Maps';
+import Builds from './subComponents/main/Builds';
+
 const Main = () => {
   return (
-    <div className="bg-[#110F14] h-[25vh] text-white font-bold">
-      Main
+    <div className="text-white font-bold">
+
+      <div className="bg-[#110F14]">
+        <Services />
+        <br /><br /><br /><br /><br /><br />
+      </div>
+
+      <iframe src='https://my.spline.design/ranchpc-77e02d48f65b852d0188bbfc202f0173/' frameborder='0' width='100%' height='250px'></iframe>
+
+      <About />
+
+      <Maps />
+
+      <Builds />
+
     </div>
   )
 }
