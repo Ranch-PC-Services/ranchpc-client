@@ -5,12 +5,12 @@ import { CgDropOpacity } from 'react-icons/cg';
 
 const Services = () => {
   return (
-    <div className="services-container flex items-center justify-between w-full max-w-[110rem] 2xl:max-w-[100rem] xl:max-w-[80rem] xl:gap-14 lg:max-w-[75rem]">
+    <div className="services-container flex items-center justify-between w-full max-w-[110rem] mx:max-w-[110rem] 2xl:max-w-[90rem] xl:max-w-[70rem] xl:gap-14 lg:max-w-[50rem]">
 
       <div className="services-container__left">
         <div className="mt-40 flex flex-col gap-10">
           <p className="text-5xl">Our Services</p>
-          <div className="flex flex-col gap-10 text-[1.1rem] 2xl:text-[1.1rem] xl:text-[1rem] lg:text-[0.9rem] leading-loose 2xl:leading-loose xl:leading-snug lg:leading-snug opacity-75">
+          <div className="flex flex-col gap-10 text-[1.1rem] max:text-[1.1rem] 2xl:text-[1rem] xl:text-[1rem] lg:text-[0.9rem] leading-loose 2xl:leading-loose xl:leading-snug lg:leading-snug opacity-75">
             <span>
               From its inception, Ranch PC Services has done multiple PC services for PC lovers out there. <br />
               From quoting from us, asking help for what PC should they use for their needs or wants. <br />
