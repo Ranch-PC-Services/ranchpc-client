@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+
+import styles from '../styles/landing/Navbar.module.scss';
+
 import Link from 'next/link';
 import { Tooltip, Button } from '@material-tailwind/react';
 
@@ -13,7 +16,7 @@ import { BsGlobe } from 'react-icons/bs';
 import { HiOutlineTruck } from 'react-icons/hi';
 
 // Components
-import Header from './subComponents/Header';
+import Header from './subComponents/landing/Header';
 
 const Navbar = () => {
 
@@ -22,9 +25,9 @@ const Navbar = () => {
   return (
     <div>
 
-      <header className="header-container bg-[#15131A] text-white font-bold w-full">
+      <nav className={styles.nav__container}>
         <br />
-        <nav className="app__navbar w-full flex justify-between max-w-[100rem] custom:max-w-full">
+        <nav className={styles.app__navbar}>
 
           <div className="app__navbar-logo">
             <a href="#" className="flex items-center gap-5 text-4xl font-bold tracking-wide">
@@ -38,7 +41,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex gap-10">
-            <ul className="app__navbar-links text-xl font-semibold items-center list-none custom:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex">
+            <ul className="app__navbar-links gap-5 text-xl font-semibold items-center list-none custom:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex">
               <li className="p__opensans cursor-pointer"><a href="#home">Home</a></li>
               <li className="p__opensans cursor-pointer"><a href="#services">Services</a></li>
               <li className="p__opensans cursor-pointer"><a href="#about">About</a></li>
@@ -94,7 +97,7 @@ const Navbar = () => {
           </div>
 
         </nav>
-      </header>
+      </nav>
 
       <Header />
 

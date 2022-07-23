@@ -1,0 +1,28 @@
+@import '../_variables';
+
+.nav__container {
+  background: $primary-background;
+  color: $primary-text-color;
+  font-weight: $bold-font-weight;
+  width: 100%;
+
+  .app__navbar {
+    max-width: 100rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: $center-margin;
+    padding: 2rem 2rem;
+  }
+
+}
+
+/* ========= Media Queries ========= */
+
+@media (max-width: 639px) {
+  
+  .app__navbar {
+    max-width: 100%;
+  }
+
+}

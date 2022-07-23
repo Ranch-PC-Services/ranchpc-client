@@ -9,7 +9,7 @@ const Services = () => {
       max-w-[110rem] mx:max-w-[110rem] 2xl:max-w-[90rem] xl:max-w-[70rem] xl:gap-14 lg:max-w-[50rem] custom:max-w-[30rem] xl:flex-row sm:flex-col custom:flex-col"
     >
 
-      <div className="services-container__left">
+      <div id="services" className="services-container__left">
         <div className="mt-40 flex flex-col gap-10 mx:mt-40 2xl:mt-40 xl:mt-20 md:mt-10 custom:mt-20">
           <p className="text-5xl ml-0 md:ml-10 custom:text-4xl custom:text-center">Our Services</p>
           <div className="services__subtitle flex flex-col gap-10 w-full ml-0

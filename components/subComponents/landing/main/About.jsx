@@ -3,10 +3,10 @@ import { FaFacebookSquare } from 'react-icons/fa';
 
 // Images
 import Image from 'next/image';
-import isaac from '../../../assets/images/Isaac.jpg';
-import jar from '../../../assets/images/Jarren.jpg';
-import desi from '../../../assets/images/Desi.jpg';
-import mart from '../../../assets/images/Mart.jpg';
+import isaac from '../../../../assets/images/Isaac.jpg';
+import jar from '../../../../assets/images/Jarren.jpg';
+import desi from '../../../../assets/images/Desi.jpg';
+import mart from '../../../../assets/images/Mart.jpg';
 
 const About = () => {
   return (
