@@ -27,16 +27,6 @@ html {
   background: linear-gradient(transparent, #684471);
 }
 
-/* navbar */
-.app__navbar {
-  margin: 0 auto;
-  padding: 2rem 2rem;
-}
-
-.app__navbar-links li {
-  margin: 0 0.5rem;
-}
-
 /* header */
 .wave-up {
   border-top-left-radius: 25%;
@@ -173,15 +163,6 @@ html {
 
 .build-container-arrows {
   padding: 0 1rem;
-}
-
-/* footer */
-.footer-container {
-  padding: 0.5rem 0;
-}
-
-.footer-container__sub {
-  padding: 2rem 1rem;
 }
 
 
