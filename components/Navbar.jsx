@@ -39,16 +39,16 @@ const Navbar = () => {
 
           <div className="flex gap-10">
             <ul className="app__navbar-links text-xl font-semibold items-center list-none custom:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex">
-              <li className="p__opensans"><a href="#home">Home</a></li>
-              <li className="p__opensans"><a href="#services">Services</a></li>
-              <li className="p__opensans"><a href="#about">About</a></li>
+              <li className="p__opensans cursor-pointer"><a href="#home">Home</a></li>
+              <li className="p__opensans cursor-pointer"><a href="#services">Services</a></li>
+              <li className="p__opensans cursor-pointer"><a href="#about">About</a></li>
             </ul>
 
             {/* Remove tooltip in the future */}
             <div className="app__navbar-login flex justify-end items-center gap-4 custom:hidden">
               <Tooltip content="Multi Language Support Coming Soon">
                 <Button variant="gradient">
-                  <Link href="/post/order" className="p__opensans">
+                  <Link href="/post/order" className="p__opensans cursor-pointer">
                     <BsGlobe color="#fff" fontSize={27} />
                   </Link>
                 </Button>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
               <Tooltip content="Shipping Feature Coming Soon">
                 <Button variant="gradient">
-                  <Link href="/post/faq" className="p__opensans">
+                  <Link href="/post/faq" className="p__opensans cursor-pointer">
                     <HiOutlineTruck stroke="#fff" fontSize={35} />
                   </Link>
                 </Button>
@@ -66,6 +66,7 @@ const Navbar = () => {
 
           <div className="app__navbar-smallscreen mt-6 hidden custom:flex sm:flex md:flex lg:hidden xl:hidden 2xl:hidden">
             <GiHamburgerMenu
+              className="cursor-pointer"
               onClick={() => setToggleMenu(true)}
               color="#fff"
               fontSize={27}
@@ -78,13 +79,13 @@ const Navbar = () => {
                   className="overlay__close text-white cursor-pointer absolute top-5 right-5"
                 />
                 <ul className="app__navbar-smallscreen_links list-none text-white text-2xl mt-20">
-                  <li>
+                  <li className="cursor-pointer m-4 text-[2rem] text-center">
                     <a href="#home" onClick={() => setToggleMenu(false)}>Home</a>
                   </li>
-                  <li>
+                  <li className="cursor-pointer m-4 text-[2rem] text-center">
                     <a href="#services" onClick={() => setToggleMenu(false)}>Services</a>
                   </li>
-                  <li>
+                  <li className="cursor-pointer m-4 text-[2rem] text-center">
                     <a href="#about" onClick={() => setToggleMenu(false)}>About</a>
                   </li>
                 </ul>

@@ -34,7 +34,7 @@ const Services = () => {
       <div className="services-container__right flex flex-row gap-10 mt-32 mr-0
         mx:flex-row mx:gap-10 2xl:flex-row 2xl:mt-32 xl:mt-[12rem] xl:gap-8 xl:flex-row xl:flex-wrap xl:justify-center lg:flex-col md:flex-col md:gap-4 md:mt-[7rem] md:mr-10 sm:flex-col custom:flex-col custom:mt-10"
       >
-        <button type="button" className="button-glow hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-widest 
+        <button type="button" className="button-glow border-none outline-none bg-[#444] relative z-0 w-[185px] h-[185px] cursor-default hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-widest 
           custom:flex-row custom:justify-start"
         >
           <GoDeviceDesktop
@@ -44,7 +44,7 @@ const Services = () => {
           />
           <span className="opacity-75">Labor</span>
         </button>
-        <button type="button" className="button-glow hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-wider 
+        <button type="button" className="button-glow border-none outline-none bg-[#444] relative z-0 w-[185px] h-[185px] cursor-default hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-wider 
           custom:flex-row custom:justify-start"
         >
           <ImWrench
@@ -54,7 +54,7 @@ const Services = () => {
           />
           <span className="opacity-75">Troubleshooting</span>
         </button>
-        <button type="button" className="button-glow hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-widest 
+        <button type="button" className="button-glow border-none outline-none bg-[#444] relative z-0 w-[185px] h-[185px] cursor-default hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-widest 
           custom:flex-row custom:justify-start"
         >
           <CgDropOpacity

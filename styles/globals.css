@@ -8,29 +8,23 @@
   scroll-behavior: smooth;
   outline: none;
   text-decoration: none;
-  /* overflow-x: hidden; */
 }
 
 html {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
-  background-color: #FCFCFC;
-}
-
 ::-webkit-scrollbar {
-  width: 10px;
-  background-color: #DCCA87;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6f56b4;
+  background: linear-gradient(transparent, #6f56b4);
+  border-radius: 6px;
 }
 
-.disabled {
-  cursor: not-allowed;
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #684471);
 }
 
 /* navbar */
@@ -41,28 +35,10 @@ html {
 
 .app__navbar-links li {
   margin: 0 0.5rem;
-  cursor: pointer;
-}
-
-.app__navbar-login svg,
-.order__btn svg {
-  cursor: pointer;
-}
-
-.app__navbar-smallscreen_links li {
-  margin: 2rem;
-  cursor: pointer;
-  font-size: 2rem;
-  text-align: center;
 }
 
 /* header */
-.header-container__title {
-  overflow-y: hidden;
-}
-
 .wave-up {
-  position: relative;
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
 }
@@ -73,14 +49,6 @@ html {
 }
 
 .button-glow {
-  border: none;
-  outline: none;
-  background: #444;
-  width: 185px;
-  height: 185px;
-  cursor: default;
-  position: relative;
-  z-index: 0;
   border-radius: 10px;
 }
 
@@ -132,32 +100,14 @@ html {
 }
 
 /* about */
-.rpcTeam {
-  z-index: 1;
-  flex-wrap: wrap;
-}
-
 .rpcTeam .cardTeam {
-  position: relative;
-  width: 300px;
-  height: 400px;
-  background: #222;
   margin: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   backdrop-filter: blur(10px);
 }
 
 .rpcTeam .cardTeam .conTeam {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0.5;
   transition: 0.5s;
 }
 
@@ -167,35 +117,18 @@ html {
 }
 
 .rpcTeam .cardTeam .conTeam .imgTeam {
-  position: relative;
-  width: 150px;
-  height: 150px;
   border-radius: 50%;
-  overflow: hidden;
   border: 10px solid #bfbfbf;
 }
 
 .rpcTeam .cardTeam .conTeam .conTeamBx h3 {
-  color: #fff;
-  text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 500;
-  font-size: 18px;
-  text-align: center;
   margin: 20px 0 10px;
   line-height: 1.1em;
 }
 
 .rpcTeam .cardTeam .conTeam .conTeamBx h3 span {
-  font-size: 12px;
-  font-weight: 300;
   text-transform: initial;
-}
-
-.rpcTeam .cardTeam .sclTeam {
-  position: absolute;
-  bottom: 50px;
-  display: flex;
 }
 
 .rpcTeam .cardTeam .sclTeam li {
@@ -214,23 +147,15 @@ html {
 /* builds */
 .build-container {
   flex: 1;
-  max-width: 100%;
 }
 
 .build-container__images {
-  width: max-content;
-  overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
 .build-container__images::-webkit-scrollbar {
   display: none;
-}
-
-.build-container__images_card {
-  min-width: 301px;
-  height: 447px;
 }
 
 .build-container__images_card img {
@@ -248,7 +173,15 @@ html {
 
 .build-container-arrows {
   padding: 0 1rem;
-  bottom: 60%;
+}
+
+/* footer */
+.footer-container {
+  padding: 0.5rem 0;
+}
+
+.footer-container__sub {
+  padding: 2rem 1rem;
 }
 
 
@@ -316,13 +249,4 @@ html {
     width: 340px;
     height: 100px;
   }
-}
-
-/* footer */
-.footer-container {
-  padding: 0.5rem 0;
-}
-
-.footer-container__sub {
-  padding: 2rem 1rem;
 }
