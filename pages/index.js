@@ -6,12 +6,11 @@ import mouseTrailConfig from '../config/mousetrail/mousetrail.json';
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
+import ScrollTopArrow from '../components/common/ScrollTopArrow';
 
 const Home = () => {
   return (
     <div>
-
-      <MouseTrail config={mouseTrailConfig} />
 
       <Head>
         <title>Ranch PC Services</title>
@@ -19,6 +18,10 @@ const Home = () => {
       </Head>
 
       {/* mouse trail */}
+      <MouseTrail config={mouseTrailConfig} />
+
+      {/* scroll top arrow */}
+      <ScrollTopArrow />
 
       {/* Navbar */}
       <div>
