@@ -1,5 +1,5 @@
 import React from 'react';
-import buildImages from '../../constants/buildImages.js';
+import buildImages from '../../../constants/buildImages.js';
 
 // Images
 import Image from 'next/image';

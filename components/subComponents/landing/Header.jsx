@@ -1,9 +1,9 @@
 // Components
-import ContactIcons from '../common/ContactIcons';
+import ContactIcons from '../../common/ContactIcons';
 
 // Images
 import Image from 'next/image';
-import computer from '../../assets/images/computer.png';
+import computer from '../../../assets/images/computer.png';
 
 // Icons
 import { BsArrowDown } from 'react-icons/bs';

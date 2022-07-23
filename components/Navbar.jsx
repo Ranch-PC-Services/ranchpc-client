@@ -16,7 +16,7 @@ import { BsGlobe } from 'react-icons/bs';
 import { HiOutlineTruck } from 'react-icons/hi';
 
 // Components
-import Header from './subComponents/Header';
+import Header from './subComponents/landing/Header';
 
 const Navbar = () => {
 
