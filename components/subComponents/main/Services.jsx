@@ -6,14 +6,14 @@ import { CgDropOpacity } from 'react-icons/cg';
 const Services = () => {
   return (
     <div className="services-container flex flex-row items-center justify-between w-full 
-      max-w-[110rem] mx:max-w-[110rem] 2xl:max-w-[90rem] xl:max-w-[70rem] xl:gap-14 lg:max-w-[50rem] custom:max-w-[30rem] lg:flex-row md:flex-col sm:flex-col custom:flex-col"
+      max-w-[110rem] mx:max-w-[110rem] 2xl:max-w-[90rem] xl:max-w-[70rem] xl:gap-14 lg:max-w-[50rem] custom:max-w-[30rem] lg:flex-row sm:flex-col custom:flex-col"
     >
 
       <div className="services-container__left">
-        <div className="mt-40 flex flex-col gap-10 custom:mt-20">
-          <p className="text-5xl custom:text-4xl custom:text-center">Our Services</p>
-          <div className="services__subtitle flex flex-col gap-10 w-full
-            text-[1.1rem] max:text-[1.1rem] 2xl:text-[1rem] xl:text-[1rem] lg:text-[0.9rem] custom:text-[0.85rem] custom:text-center custom:w-3/4 leading-loose 2xl:leading-loose xl:leading-snug lg:leading-snug opacity-75"
+        <div className="mt-40 flex flex-col gap-10 mx:mt-40 2xl:mt-40 md:mt-10 custom:mt-20">
+          <p className="text-5xl ml-0 md:ml-10 custom:text-4xl custom:text-center">Our Services</p>
+          <div className="services__subtitle flex flex-col gap-10 w-full ml-0
+            text-[1.1rem] mx:text-[1.1rem] mx:w-full 2xl:text-[1rem] xl:text-[1rem] lg:text-[0.9rem] md:text-[0.85rem] md:w-3/4 md:ml-10 custom:text-[0.85rem] custom:text-center custom:w-3/4 leading-loose 2xl:leading-loose xl:leading-snug lg:leading-snug opacity-75"
           >
             <span>
               From its inception, Ranch PC Services has done multiple PC services for PC lovers out there. <br />
@@ -31,8 +31,8 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-container__right flex flex-row gap-10 mt-32 
-        2xl:mt-32 xl:mt-[15rem] lg:flex-row md:flex-col sm:flex-col custom:flex-col custom:mt-10"
+      <div className="services-container__right flex flex-row gap-10 mt-32 mr-0
+        mx:gap-10 2xl:mt-32 xl:mt-[15rem] lg:flex-row md:flex-col md:gap-4 md:mt-[7rem] md:mr-10 sm:flex-col custom:flex-col custom:mt-10"
       >
         <button type="button" className="button-glow hover:animate-pulse flex flex-col items-center justify-center gap-5 tracking-widest 
           custom:flex-row custom:justify-start"
