@@ -11,7 +11,7 @@ import mart from '../../../assets/images/Mart.jpg';
 const About = () => {
   return (
     <div id="about" className="about-container bg-[#15131A]">
-      <p className="text-center text-5xl">Ranch PC Service Team</p>
+      <p className="text-center text-5xl custom:text-3xl">Ranch PC Service Team</p>
 
       <div className="teamDets mt-10 relative bg-[#15131A]">
         <div className="rpcTeam relative flex justify-center items-center">

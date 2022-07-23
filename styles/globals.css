@@ -254,6 +254,31 @@ html {
 
 /* ========= Media Queries ========= */
 
+@media (max-width: 639px) {
+  .services__subtitle {
+    margin: 0 auto;
+  }
+
+  .button-glow {
+    width: 375px;
+    height: 100px;
+  }
+
+  .build-container__images_card {
+    min-width: 275px;
+    height: 340px;
+  }
+
+  .build-container-arrows {
+    bottom: 52.5%;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    font-size: 50px;
+  }
+}
+
 @media (max-width: 500px) {
   .rpcTeam {
     display: grid;

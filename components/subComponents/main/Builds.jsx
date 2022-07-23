@@ -24,7 +24,7 @@ const Builds = () => {
   return (
     <div className="bg-[#15131A] text-white">
       <br /><br />
-      <p className="text-center text-5xl font-bold mb-10">Our Sample Builds</p>
+      <p className="text-center text-5xl font-bold mb-10 custom:text-4xl">Our Sample Builds</p>
 
       <div className="build-container flex relative">
         <div className="build-container__images flex" ref={scrollRef}>
@@ -42,12 +42,12 @@ const Builds = () => {
           {/* left and right arrow here */}
           <BsArrowLeftCircleFill
             onClick={() => scroll('left')}
-            className="cursor-pointer"
+            className="left-arrow cursor-pointer"
             fontSize={75}
           />
           <BsArrowRightCircleFill
             onClick={() => scroll('right')}
-            className="cursor-pointer"
+            className="right-arrow cursor-pointer"
             fontSize={75}
           />
         </div>
